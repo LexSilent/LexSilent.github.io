@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px) {
+    #secIzq{
+        display: none;
+    }
+    #secDer{
+        width: 80vw;
+    }
+    div.panelFill{
+    margin: auto;
+    }
+    input{
+        width: 80vw;
+    }
+    button{
+        width: 80vw;
+    }
+    #datosLogin{
+        margin: auto;
+        margin-top: 15vh;
+    }
+    header{
+        width: 45vw;
+        height: 20vh;
+        margin-top: 5vh;
+    }
+    div#logo{
+       display: none;
+    }
+    button#izquierdo{
+        width: 15vw;
+    }
+    button#derecho{
+        width: 15vw;
+    }
+    h4.views{
+        display: none;
+    }
+    .izquierdaInfo{
+        display: none;
+    }
+    .labelround{
+        margin: auto;
+        height: 6vh;
+        width: 80vw;
+    }
+    .btnPlayMobile{
+        display: block;
+        font-family: 'Inter', sans-serif, FontAwesome ;
+        background-color: whitesmoke;
+        color: #92A1B1;
+        float: left;
+        font-size: 1rem;
+        width: 80vw;
+    }
+    .btnPlayMobile:active{
+        background-color: rgb(192, 192, 192);
+        color: #92A1B1;
+    }
+    .btnWhite{
+        width: 50vw;
+    }
+    .stars{
+        display: none;
+    }
+    #panelBorrarMobil{
+        display: none;
+    }
+    #panelBorrarPC{
+        display: flex;
+    }
+}
